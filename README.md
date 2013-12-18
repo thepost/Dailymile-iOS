@@ -142,8 +142,12 @@ Here's an example of uploading:
 
 A few assumptions are made about any GPX file that data is extracted from, and it's up to you to create a GPX in that way:
     
-    1) There is only 1 track, but that track can contain multiple track segments. It uses the last (or only) track in any array of tracks.
+* There is only 1 track, but that track can contain multiple track segments. It uses the last (or only) track in any array of tracks.
     
-    2) The track name is a good value to use for the Dailymile title.
+* The track name is a good value to use for the Dailymile title.
     
-    3) The track comment is a good value to use for the Dailymile message.
+* The track comment is a good value to use for the Dailymile message.
+    
+Please contact me if you have any questions.
+
+Mike Post
