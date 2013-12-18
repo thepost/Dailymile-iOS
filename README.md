@@ -47,6 +47,9 @@ Getting Started:
 2) Under "URL Types" add your client ID to the URL Schemes field, for the auth callback.
   You can append anything to the client ID to make it easier if you're managing multiple redirects in your app. I appended   "dailymile-" to make it "dailymile-CLIENT_ID". 
 
+<p align="center" >
+  <img src="https://raw.github.com/thepost/Dailymile-iOS/master/Assets/custom_URL_screenshot.png" />
+</p>
 
 ### Redirect the Auth Code URL
 
