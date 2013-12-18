@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70F47EC1857F7DC0024EFEB /* fitfriend_log_2013-11-30.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D70F47EB1857F7DC0024EFEB /* fitfriend_log_2013-11-30.gpx */; };
+		D70F47F0185804590024EFEB /* GPX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70F47EF185804590024EFEB /* GPX.framework */; };
+		D720AB33184F920B00A55D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720AB32184F920B00A55D68 /* Foundation.framework */; };
+		D720AB35184F920B00A55D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720AB34184F920B00A55D68 /* CoreGraphics.framework */; };
+		D720AB37184F920B00A55D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720AB36184F920B00A55D68 /* UIKit.framework */; };
+		D720AB3D184F920B00A55D68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D720AB3B184F920B00A55D68 /* InfoPlist.strings */; };
+		D720AB3F184F920B00A55D68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB3E184F920B00A55D68 /* main.m */; };
+		D720AB43184F920B00A55D68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB42184F920B00A55D68 /* AppDelegate.m */; };
+		D720AB49184F920B00A55D68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB48184F920B00A55D68 /* ViewController.m */; };
+		D720AB4B184F920B00A55D68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720AB4A184F920B00A55D68 /* Images.xcassets */; };
+		D720AB52184F920B00A55D68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720AB51184F920B00A55D68 /* XCTest.framework */; };
+		D720AB53184F920B00A55D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720AB32184F920B00A55D68 /* Foundation.framework */; };
+		D720AB54184F920B00A55D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D720AB36184F920B00A55D68 /* UIKit.framework */; };
+		D720AB5C184F920B00A55D68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D720AB5A184F920B00A55D68 /* InfoPlist.strings */; };
+		D720AB5E184F920B00A55D68 /* DailymileDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB5D184F920B00A55D68 /* DailymileDemoTests.m */; };
+		D720AB6E184F931300A55D68 /* DailymileActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB69184F931300A55D68 /* DailymileActivity.m */; };
+		D720AB6F184F931300A55D68 /* DailymileAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB6B184F931300A55D68 /* DailymileAuthentication.m */; };
+		D720AB70184F931300A55D68 /* DailymileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D720AB6D184F931300A55D68 /* DailymileManager.m */; };
+		D720AB72184F93F700A55D68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720AB71184F93F700A55D68 /* Main.storyboard */; };
+		D722E281184FC4FB00CABD1B /* libOAuth2Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D722E27E184FC4A300CABD1B /* libOAuth2Client.a */; };
+		D722E283184FC50200CABD1B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D722E282184FC50200CABD1B /* Security.framework */; };
+		D78DDEDD18526D5D0012595D /* DailymileProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D78DDEDC18526D5D0012595D /* DailymileProfile.m */; };
+		D7A5EECD18529090001843D0 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEBB18529090001843D0 /* AFHTTPRequestOperation.m */; };
+		D7A5EECE18529090001843D0 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEBD18529090001843D0 /* AFHTTPRequestOperationManager.m */; };
+		D7A5EECF18529090001843D0 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEBF18529090001843D0 /* AFHTTPSessionManager.m */; };
+		D7A5EED018529090001843D0 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEC218529090001843D0 /* AFNetworkReachabilityManager.m */; };
+		D7A5EED118529090001843D0 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEC418529090001843D0 /* AFSecurityPolicy.m */; };
+		D7A5EED218529090001843D0 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEC618529090001843D0 /* AFURLConnectionOperation.m */; };
+		D7A5EED318529090001843D0 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EEC818529090001843D0 /* AFURLRequestSerialization.m */; };
+		D7A5EED418529090001843D0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EECA18529090001843D0 /* AFURLResponseSerialization.m */; };
+		D7A5EED518529090001843D0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5EECC18529090001843D0 /* AFURLSessionManager.m */; };
+		D7CC5CDE1858BDC200FED247 /* DailymileActivityRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC5CDD1858BDC200FED247 /* DailymileActivityRoute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D720AB55184F920B00A55D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D720AB27184F920B00A55D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D720AB2E184F920B00A55D68;
+			remoteInfo = DailymileDemo;
+		};
+		D722E27B184FC4A300CABD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D722E276184FC4A300CABD1B /* OAuth2Client.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 942FFCD612315E0A00E6C65E;
+			remoteInfo = OAuth2Client.framework;
+		};
+		D722E27D184FC4A300CABD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D722E276184FC4A300CABD1B /* OAuth2Client.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = OAuth2Client;
+		};
+		D722E27F184FC4F000CABD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D722E276184FC4A300CABD1B /* OAuth2Client.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 942FFCD512315E0A00E6C65E;
+			remoteInfo = OAuth2Client.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D70F47EB1857F7DC0024EFEB /* fitfriend_log_2013-11-30.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "fitfriend_log_2013-11-30.gpx"; sourceTree = "<group>"; };
+		D70F47EF185804590024EFEB /* GPX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPX.framework; sourceTree = "<group>"; };
+		D720AB2F184F920B00A55D68 /* DailymileDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailymileDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D720AB32184F920B00A55D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D720AB34184F920B00A55D68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D720AB36184F920B00A55D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D720AB3A184F920B00A55D68 /* DailymileDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailymileDemo-Info.plist"; sourceTree = "<group>"; };
+		D720AB3C184F920B00A55D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D720AB3E184F920B00A55D68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D720AB40184F920B00A55D68 /* DailymileDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailymileDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D720AB41184F920B00A55D68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D720AB42184F920B00A55D68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D720AB47184F920B00A55D68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D720AB48184F920B00A55D68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D720AB4A184F920B00A55D68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D720AB50184F920B00A55D68 /* DailymileDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailymileDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D720AB51184F920B00A55D68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D720AB59184F920B00A55D68 /* DailymileDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailymileDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D720AB5B184F920B00A55D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D720AB5D184F920B00A55D68 /* DailymileDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailymileDemoTests.m; sourceTree = "<group>"; };
+		D720AB68184F931300A55D68 /* DailymileActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailymileActivity.h; sourceTree = "<group>"; };
+		D720AB69184F931300A55D68 /* DailymileActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailymileActivity.m; sourceTree = "<group>"; };
+		D720AB6A184F931300A55D68 /* DailymileAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailymileAuthentication.h; sourceTree = "<group>"; };
+		D720AB6B184F931300A55D68 /* DailymileAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailymileAuthentication.m; sourceTree = "<group>"; };
+		D720AB6C184F931300A55D68 /* DailymileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailymileManager.h; sourceTree = "<group>"; };
+		D720AB6D184F931300A55D68 /* DailymileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailymileManager.m; sourceTree = "<group>"; };
+		D720AB71184F93F700A55D68 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D722E276184FC4A300CABD1B /* OAuth2Client.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2Client.xcodeproj; path = "OAuth2Client-master/OAuth2Client.xcodeproj"; sourceTree = "<group>"; };
+		D722E282184FC50200CABD1B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D78DDEDB18526D5D0012595D /* DailymileProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailymileProfile.h; sourceTree = "<group>"; };
+		D78DDEDC18526D5D0012595D /* DailymileProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailymileProfile.m; sourceTree = "<group>"; };
+		D7A5EEB7185285E3001843D0 /* DailymileConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailymileConstants.h; sourceTree = "<group>"; };
+		D7A5EEBA18529090001843D0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		D7A5EEBB18529090001843D0 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		D7A5EEBC18529090001843D0 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		D7A5EEBD18529090001843D0 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		D7A5EEBE18529090001843D0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D7A5EEBF18529090001843D0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D7A5EEC018529090001843D0 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D7A5EEC118529090001843D0 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D7A5EEC218529090001843D0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		D7A5EEC318529090001843D0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		D7A5EEC418529090001843D0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D7A5EEC518529090001843D0 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		D7A5EEC618529090001843D0 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		D7A5EEC718529090001843D0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D7A5EEC818529090001843D0 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		D7A5EEC918529090001843D0 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D7A5EECA18529090001843D0 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		D7A5EECB18529090001843D0 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		D7A5EECC18529090001843D0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D7CC5CDC1858BDC200FED247 /* DailymileActivityRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailymileActivityRoute.h; sourceTree = "<group>"; };
+		D7CC5CDD1858BDC200FED247 /* DailymileActivityRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailymileActivityRoute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D720AB2C184F920B00A55D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D722E283184FC50200CABD1B /* Security.framework in Frameworks */,
+				D722E281184FC4FB00CABD1B /* libOAuth2Client.a in Frameworks */,
+				D70F47F0185804590024EFEB /* GPX.framework in Frameworks */,
+				D720AB35184F920B00A55D68 /* CoreGraphics.framework in Frameworks */,
+				D720AB37184F920B00A55D68 /* UIKit.framework in Frameworks */,
+				D720AB33184F920B00A55D68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720AB4D184F920B00A55D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720AB52184F920B00A55D68 /* XCTest.framework in Frameworks */,
+				D720AB54184F920B00A55D68 /* UIKit.framework in Frameworks */,
+				D720AB53184F920B00A55D68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D720AB26184F920B00A55D68 = {
+			isa = PBXGroup;
+			children = (
+				D722E276184FC4A300CABD1B /* OAuth2Client.xcodeproj */,
+				D7A5EEB918529090001843D0 /* AFNetworking */,
+				D720AB67184F931300A55D68 /* Dailymile */,
+				D720AB38184F920B00A55D68 /* DailymileDemo */,
+				D720AB57184F920B00A55D68 /* DailymileDemoTests */,
+				D720AB31184F920B00A55D68 /* Frameworks */,
+				D720AB30184F920B00A55D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D720AB30184F920B00A55D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D720AB2F184F920B00A55D68 /* DailymileDemo.app */,
+				D720AB50184F920B00A55D68 /* DailymileDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D720AB31184F920B00A55D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D70F47EF185804590024EFEB /* GPX.framework */,
+				D722E282184FC50200CABD1B /* Security.framework */,
+				D720AB32184F920B00A55D68 /* Foundation.framework */,
+				D720AB34184F920B00A55D68 /* CoreGraphics.framework */,
+				D720AB36184F920B00A55D68 /* UIKit.framework */,
+				D720AB51184F920B00A55D68 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D720AB38184F920B00A55D68 /* DailymileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D70F47EB1857F7DC0024EFEB /* fitfriend_log_2013-11-30.gpx */,
+				D720AB41184F920B00A55D68 /* AppDelegate.h */,
+				D720AB42184F920B00A55D68 /* AppDelegate.m */,
+				D720AB47184F920B00A55D68 /* ViewController.h */,
+				D720AB48184F920B00A55D68 /* ViewController.m */,
+				D720AB71184F93F700A55D68 /* Main.storyboard */,
+				D720AB4A184F920B00A55D68 /* Images.xcassets */,
+				D720AB39184F920B00A55D68 /* Supporting Files */,
+			);
+			path = DailymileDemo;
+			sourceTree = "<group>";
+		};
+		D720AB39184F920B00A55D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D720AB3A184F920B00A55D68 /* DailymileDemo-Info.plist */,
+				D720AB3B184F920B00A55D68 /* InfoPlist.strings */,
+				D720AB3E184F920B00A55D68 /* main.m */,
+				D720AB40184F920B00A55D68 /* DailymileDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D720AB57184F920B00A55D68 /* DailymileDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D720AB5D184F920B00A55D68 /* DailymileDemoTests.m */,
+				D720AB58184F920B00A55D68 /* Supporting Files */,
+			);
+			path = DailymileDemoTests;
+			sourceTree = "<group>";
+		};
+		D720AB58184F920B00A55D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D720AB59184F920B00A55D68 /* DailymileDemoTests-Info.plist */,
+				D720AB5A184F920B00A55D68 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D720AB67184F931300A55D68 /* Dailymile */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5EEB7185285E3001843D0 /* DailymileConstants.h */,
+				D720AB68184F931300A55D68 /* DailymileActivity.h */,
+				D720AB69184F931300A55D68 /* DailymileActivity.m */,
+				D7CC5CDC1858BDC200FED247 /* DailymileActivityRoute.h */,
+				D7CC5CDD1858BDC200FED247 /* DailymileActivityRoute.m */,
+				D78DDEDB18526D5D0012595D /* DailymileProfile.h */,
+				D78DDEDC18526D5D0012595D /* DailymileProfile.m */,
+				D720AB6A184F931300A55D68 /* DailymileAuthentication.h */,
+				D720AB6B184F931300A55D68 /* DailymileAuthentication.m */,
+				D720AB6C184F931300A55D68 /* DailymileManager.h */,
+				D720AB6D184F931300A55D68 /* DailymileManager.m */,
+			);
+			name = Dailymile;
+			path = ../Dailymile;
+			sourceTree = "<group>";
+		};
+		D722E277184FC4A300CABD1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D722E27C184FC4A300CABD1B /* OAuth2Client.framework */,
+				D722E27E184FC4A300CABD1B /* libOAuth2Client.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A5EEB918529090001843D0 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5EEBA18529090001843D0 /* AFHTTPRequestOperation.h */,
+				D7A5EEBB18529090001843D0 /* AFHTTPRequestOperation.m */,
+				D7A5EEBC18529090001843D0 /* AFHTTPRequestOperationManager.h */,
+				D7A5EEBD18529090001843D0 /* AFHTTPRequestOperationManager.m */,
+				D7A5EEBE18529090001843D0 /* AFHTTPSessionManager.h */,
+				D7A5EEBF18529090001843D0 /* AFHTTPSessionManager.m */,
+				D7A5EEC018529090001843D0 /* AFNetworking.h */,
+				D7A5EEC118529090001843D0 /* AFNetworkReachabilityManager.h */,
+				D7A5EEC218529090001843D0 /* AFNetworkReachabilityManager.m */,
+				D7A5EEC318529090001843D0 /* AFSecurityPolicy.h */,
+				D7A5EEC418529090001843D0 /* AFSecurityPolicy.m */,
+				D7A5EEC518529090001843D0 /* AFURLConnectionOperation.h */,
+				D7A5EEC618529090001843D0 /* AFURLConnectionOperation.m */,
+				D7A5EEC718529090001843D0 /* AFURLRequestSerialization.h */,
+				D7A5EEC818529090001843D0 /* AFURLRequestSerialization.m */,
+				D7A5EEC918529090001843D0 /* AFURLResponseSerialization.h */,
+				D7A5EECA18529090001843D0 /* AFURLResponseSerialization.m */,
+				D7A5EECB18529090001843D0 /* AFURLSessionManager.h */,
+				D7A5EECC18529090001843D0 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = "../../../../../Downloads/AFNetworking-2/AFNetworking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D720AB2E184F920B00A55D68 /* DailymileDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D720AB61184F920B00A55D68 /* Build configuration list for PBXNativeTarget "DailymileDemo" */;
+			buildPhases = (
+				D720AB2B184F920B00A55D68 /* Sources */,
+				D720AB2C184F920B00A55D68 /* Frameworks */,
+				D720AB2D184F920B00A55D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D722E280184FC4F000CABD1B /* PBXTargetDependency */,
+			);
+			name = DailymileDemo;
+			productName = DailymileDemo;
+			productReference = D720AB2F184F920B00A55D68 /* DailymileDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D720AB4F184F920B00A55D68 /* DailymileDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D720AB64184F920B00A55D68 /* Build configuration list for PBXNativeTarget "DailymileDemoTests" */;
+			buildPhases = (
+				D720AB4C184F920B00A55D68 /* Sources */,
+				D720AB4D184F920B00A55D68 /* Frameworks */,
+				D720AB4E184F920B00A55D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D720AB56184F920B00A55D68 /* PBXTargetDependency */,
+			);
+			name = DailymileDemoTests;
+			productName = DailymileDemoTests;
+			productReference = D720AB50184F920B00A55D68 /* DailymileDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D720AB27184F920B00A55D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Dashend;
+				TargetAttributes = {
+					D720AB4F184F920B00A55D68 = {
+						TestTargetID = D720AB2E184F920B00A55D68;
+					};
+				};
+			};
+			buildConfigurationList = D720AB2A184F920B00A55D68 /* Build configuration list for PBXProject "DailymileDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D720AB26184F920B00A55D68;
+			productRefGroup = D720AB30184F920B00A55D68 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D722E277184FC4A300CABD1B /* Products */;
+					ProjectRef = D722E276184FC4A300CABD1B /* OAuth2Client.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D720AB2E184F920B00A55D68 /* DailymileDemo */,
+				D720AB4F184F920B00A55D68 /* DailymileDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D722E27C184FC4A300CABD1B /* OAuth2Client.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuth2Client.framework;
+			remoteRef = D722E27B184FC4A300CABD1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D722E27E184FC4A300CABD1B /* libOAuth2Client.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOAuth2Client.a;
+			remoteRef = D722E27D184FC4A300CABD1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D720AB2D184F920B00A55D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720AB72184F93F700A55D68 /* Main.storyboard in Resources */,
+				D70F47EC1857F7DC0024EFEB /* fitfriend_log_2013-11-30.gpx in Resources */,
+				D720AB4B184F920B00A55D68 /* Images.xcassets in Resources */,
+				D720AB3D184F920B00A55D68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720AB4E184F920B00A55D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720AB5C184F920B00A55D68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D720AB2B184F920B00A55D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A5EED218529090001843D0 /* AFURLConnectionOperation.m in Sources */,
+				D720AB49184F920B00A55D68 /* ViewController.m in Sources */,
+				D78DDEDD18526D5D0012595D /* DailymileProfile.m in Sources */,
+				D720AB6E184F931300A55D68 /* DailymileActivity.m in Sources */,
+				D7A5EED418529090001843D0 /* AFURLResponseSerialization.m in Sources */,
+				D720AB43184F920B00A55D68 /* AppDelegate.m in Sources */,
+				D7A5EED318529090001843D0 /* AFURLRequestSerialization.m in Sources */,
+				D7A5EED118529090001843D0 /* AFSecurityPolicy.m in Sources */,
+				D7A5EECD18529090001843D0 /* AFHTTPRequestOperation.m in Sources */,
+				D7A5EED518529090001843D0 /* AFURLSessionManager.m in Sources */,
+				D720AB3F184F920B00A55D68 /* main.m in Sources */,
+				D7CC5CDE1858BDC200FED247 /* DailymileActivityRoute.m in Sources */,
+				D720AB70184F931300A55D68 /* DailymileManager.m in Sources */,
+				D7A5EECF18529090001843D0 /* AFHTTPSessionManager.m in Sources */,
+				D720AB6F184F931300A55D68 /* DailymileAuthentication.m in Sources */,
+				D7A5EED018529090001843D0 /* AFNetworkReachabilityManager.m in Sources */,
+				D7A5EECE18529090001843D0 /* AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720AB4C184F920B00A55D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D720AB5E184F920B00A55D68 /* DailymileDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D720AB56184F920B00A55D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D720AB2E184F920B00A55D68 /* DailymileDemo */;
+			targetProxy = D720AB55184F920B00A55D68 /* PBXContainerItemProxy */;
+		};
+		D722E280184FC4F000CABD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuth2Client.framework;
+			targetProxy = D722E27F184FC4F000CABD1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D720AB3B184F920B00A55D68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D720AB3C184F920B00A55D68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D720AB5A184F920B00A55D68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D720AB5B184F920B00A55D68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D720AB5F184F920B00A55D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D720AB60184F920B00A55D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D720AB62184F920B00A55D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mikepost/Programming/FitFriend/Components/Dailymile-iOS/DailymileDemo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailymileDemo/DailymileDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/OAuth2Client-master/**",
+				);
+				INFOPLIST_FILE = "DailymileDemo/DailymileDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D720AB63184F920B00A55D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mikepost/Programming/FitFriend/Components/Dailymile-iOS/DailymileDemo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailymileDemo/DailymileDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/OAuth2Client-master/**",
+				);
+				INFOPLIST_FILE = "DailymileDemo/DailymileDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D720AB65184F920B00A55D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DailymileDemo.app/DailymileDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailymileDemo/DailymileDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DailymileDemoTests/DailymileDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D720AB66184F920B00A55D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DailymileDemo.app/DailymileDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailymileDemo/DailymileDemo-Prefix.pch";
+				INFOPLIST_FILE = "DailymileDemoTests/DailymileDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D720AB2A184F920B00A55D68 /* Build configuration list for PBXProject "DailymileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720AB5F184F920B00A55D68 /* Debug */,
+				D720AB60184F920B00A55D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D720AB61184F920B00A55D68 /* Build configuration list for PBXNativeTarget "DailymileDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720AB62184F920B00A55D68 /* Debug */,
+				D720AB63184F920B00A55D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D720AB64184F920B00A55D68 /* Build configuration list for PBXNativeTarget "DailymileDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D720AB65184F920B00A55D68 /* Debug */,
+				D720AB66184F920B00A55D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D720AB27184F920B00A55D68 /* Project object */;
+}
